@@ -1,6 +1,6 @@
 {
   "name": "angularjs-2-localstorage-timer",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Countdown timer which uses the LocalStorage to store the information. You can create several ones, change their interval, and reset it. once it's reaches 0 - the last update time is saved in the LocalStorage information as well.",
   "scripts": {
     "build": "tsc -p src/",
@@ -18,7 +18,7 @@
     "test": "concurrently \"npm run build:watch\" \"karma start karma.conf.js\"",
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
-    "lint": "tslint ./src/**/*.ts -t verbose",
+    "lint": "tslint ./src/**/*.ts -t verbose"
   },
   "keywords": ["angular2", "angularjs-2", "countdown", "timer", "localstorage"],
   "author": "Ricky Levi",
