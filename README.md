@@ -12,6 +12,7 @@ $ npm install --save angularjs-2-localstorage-timer
 ## Usage example
 A full-featured working example can be found when running in the root folder
 ```html
+npm install
 npm start
 ```
 

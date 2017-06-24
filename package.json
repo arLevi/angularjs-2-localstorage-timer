@@ -19,9 +19,7 @@
     "pretest:once": "npm run build",
     "test:once": "karma start karma.conf.js --single-run",
     "lint": "tslint ./src/**/*.ts -t verbose",
-    "prepublish": "tsc"
   },
-  "typings": "./ng2-translate.d.ts",
   "keywords": ["angular2", "angularjs-2", "countdown", "timer", "localstorage"],
   "author": "Ricky Levi",
   "license": "MIT",
